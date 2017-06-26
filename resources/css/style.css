@@ -1,4 +1,149 @@
+/* Universal styles */
+html {
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+h5 {
+  font-size: 1.25rem;
+}
+p {
+  font-size: 1rem;
+}
+.small {
+  font-size: .75rem;
+}
 .mobile,
 .mobile-header {
   display: none;
+}
+.desktop-header,
+#logo-name,
+.banner,
+.headline,
+.info,
+.information,
+.links-d,
+.image-text,
+.orientation,
+.our-campus,
+.guest-lecture,
+#learning,
+.courses,
+#thesis,
+#thesis-content,
+#video-d,
+#fisma,
+#now-and-then,
+footer {
+  display: flex;
+}
+
+/* Header */
+.desktop-header {
+  background-color: lightgray;
+}
+.desktop-header,
+#logo-name {
+  flex-direction: row;
+}
+.desktop-header {
+  justify-content: space-between;
+  height: 3.56rem;
+}
+#logo-name {
+  margin-left: 1.33rem;
+}
+#logo-name img {
+  margin-right: .3rem;
+}
+.nav-header {
+  margin-right: 1.33rem;
+  align-self: center;
+}
+#logo-name h5 {
+  align-self: center;
+}
+.margin {
+  margin-left: 1rem;
+}
+
+/* Banner */
+.banner {
+  background-color: lightblue;
+}
+.headline {
+  flex-direction: column;
+}
+.banner img {
+  width: 60%;
+  margin: 1.78rem 2.22rem 1.78rem 1.33rem;
+}
+
+/* Information */
+.info {
+  background-color: lightgray;
+}
+.information,
+.links-d,
+.image-text {
+  flex-direction: column;
+}
+.info {
+  flex-direction: row;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.information {
+  width: 60%;
+}
+.information img {
+  max-width: 100%;
+}
+
+/* Learning */
+#learning {
+  background-color: lightblue;
+}
+#learning,
+.courses {
+  flex-direction: column;
+}
+.courses {
+  max-width: 25%;
+}
+.row {
+  flex-direction: row;
+}
+
+/* Thesis */
+#thesis {
+  background-color: lightgray;
+}
+#video-d,
+#stacked,
+#thesis {
+  flex-direction: column;
+}
+#thesis-content {
+  flex-direction: row;
+}
+#video-d {
+  width: 60%;
+}
+
+/* Footer */
+footer {
+  background-color: lightblue;
 }
