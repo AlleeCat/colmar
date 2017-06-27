@@ -35,9 +35,7 @@ p {
 .information,
 .links-d,
 .image-text,
-.orientation,
-.our-campus,
-.guest-lecture,
+.photo-squares,
 #learning,
 .courses,
 #thesis,
@@ -84,10 +82,31 @@ footer {
 }
 .headline {
   flex-direction: column;
+  justify-content: center;
+  margin-right: 11.5rem;
+}
+.headline h1,
+.headline h5 {
+  margin-bottom: 2.22rem;
+}
+.headline p{
+  background-color: darkblue;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  max-width: 100%;
+  padding: .44rem 5rem;
 }
 .banner img {
-  width: 60%;
+  max-width: 60%;
   margin: 1.78rem 2.22rem 1.78rem 1.33rem;
+}
+.links-d {
+  width: 23.5rem;
+}
+.links-d img {
+  width: 35%;
+  height: 35%;
 }
 
 /* Information */
@@ -107,9 +126,27 @@ footer {
 }
 .information {
   width: 60%;
+  margin-left: 1.33rem;
+  margin-right: 1.33rem;
 }
 .information img {
   max-width: 100%;
+  margin-top: 1.78rem;
+  margin-bottom: 1.78rem;
+}
+.information h2 {
+  margin-bottom: 1.33rem;
+}
+.information .small {
+  margin-top: 2.22rem;
+  margin-bottom: 2.22rem;
+}
+.photo-squares {
+  margin-bottom: 1.78rem;
+}
+.links-d {
+  margin-left: .89rem;
+  margin-top: 1.78rem;
 }
 
 /* Learning */
