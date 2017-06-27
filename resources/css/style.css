@@ -61,6 +61,7 @@ footer {
   position: fixed;
   right: 0rem;
   left: 0rem;
+  border-bottom: .1rem solid #4e78a0;
 }
 .desktop-header,
 #logo-name {
@@ -115,17 +116,14 @@ h1 {
   text-align: center;
   max-width: 100%;
   padding: .44rem 5rem;
+  border: .1rem solid #ffffff;
+  border-radius: .5rem;
 }
 .banner img {
   max-width: 60%;
   margin: 5.78rem 2.22rem 1.78rem 1.33rem;
-}
-.links-d {
-  width: 23.5rem;
-}
-.links-d img {
-  width: 35%;
-  height: 35%;
+  border: .1rem solid #4e78a0;
+  border-radius: .5rem;
 }
 
 /* Information */
@@ -156,6 +154,8 @@ h1 {
   max-width: 100%;
   margin-top: 1.78rem;
   margin-bottom: 1.78rem;
+  border: .1rem solid #4e78a0;
+  border-radius: .5rem;
 }
 .information h2 {
   margin-bottom: 1.33rem;
@@ -175,14 +175,31 @@ h1 {
 .links-d {
   margin-left: .89rem;
   margin-top: 1.78rem;
+  width: 23.5rem;
+}
+.links-d img {
+  width: 35%;
+  height: 35%;
+  border: .1rem solid #4e78a0;
+  border-radius: .5rem;
 }
 #lecture {
   background-color: #4e78a0;
+  padding-right: .5rem;
+  border: .2rem solid #ffffff;
+  border-radius: .5rem;
+}
+#lecture img {
+  border: none;
 }
 
 /* Learning */
 #learning {
   background-color: #b2dfee;
+}
+#learning img {
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
 }
 #learning,
 .courses,
@@ -195,6 +212,8 @@ h1 {
   padding-left: .89rem;
   padding-bottom: .89rem;
   height: 7.8rem;
+  border-bottom-left-radius: .5rem;
+  border-bottom-right-radius: .5rem;
 }
 .under-photo h5 {
   margin-top: .89rem;
@@ -205,6 +224,8 @@ h1 {
 }
 .courses {
   max-width: 25%;
+  border: .1rem solid #ffffff;
+  border-radius: .5rem;
 }
 .row {
   flex-direction: row;
@@ -252,16 +273,24 @@ h1 {
   padding-bottom: 1.78rem;
 }
 .video-adjacent {
-  width: 23.5rem;
-  height: 9.33rem;
+  width: 29.38rem;
+  height: 11.66rem;
 }
 .video-adjacent img {
   margin: .89rem;
   height: 7.56rem;
   width: 7.56rem;
+  border: .1rem solid #4e78a0;
+  border-radius: .5rem;
 }
 .video-adjacent h5 {
   margin-bottom: .44rem;
+}
+video {
+  border: .1rem solid #4e78a0;
+  border-radius: .5rem;
+  padding: 0rem;
+  width: 100%;
 }
 
 /* Footer */
@@ -269,6 +298,7 @@ footer {
   background-color: #b2dfee;
   justify-content: space-between;
   height: 4rem;
+  border-top: .1rem solid #4e78a0;
 }
 footer p{
   margin-left: 1.33rem;
