@@ -37,12 +37,13 @@ p {
 .image-text,
 .photo-squares,
 #learning,
+.row,
 .courses,
+.under-photo,
 #thesis,
 #thesis-content,
 #video-d,
-#fisma,
-#now-and-then,
+.video-adjacent,
 footer {
   display: flex;
 }
@@ -118,6 +119,10 @@ footer {
 .image-text {
   flex-direction: column;
 }
+.image-text {
+  margin-left: .89rem;
+  justify-content: center;
+}
 .info {
   flex-direction: row;
 }
@@ -142,7 +147,11 @@ footer {
   margin-bottom: 2.22rem;
 }
 .photo-squares {
-  margin-bottom: 1.78rem;
+  margin-bottom: 1.78rem
+}
+.photo-squares h5,
+.photo-squares p {
+  margin-bottom: .44rem;
 }
 .links-d {
   margin-left: .89rem;
@@ -154,15 +163,37 @@ footer {
   background-color: lightblue;
 }
 #learning,
-.courses {
+.courses,
+.under-photo {
   flex-direction: column;
+}
+.under-photo {
+  background-color: white;
+  padding-left: .89rem;
+  height: 7.8rem;
+}
+.under-photo h5 {
+  margin-top: .89rem;
+}
+.under-photo p {
+  margin-top: .89rem;
 }
 .courses {
   max-width: 25%;
 }
 .row {
   flex-direction: row;
+  justify-content: center;
+  margin-bottom: 1.78rem;
 }
+#learning h2 {
+  margin: 1.78rem auto;
+}
+.middle {
+  margin-left: 1.78rem;
+  margin-right: 1.78rem;
+}
+
 
 /* Thesis */
 #thesis {
@@ -175,12 +206,50 @@ footer {
 }
 #thesis-content {
   flex-direction: row;
+  align-items: flex-start;
 }
 #video-d {
   width: 60%;
+  margin-left: 1.33rem;
+  margin-right: .89rem;
+}
+#thesis h2 {
+  margin: 1.78rem auto;
+}
+#video-d h5 {
+  margin-top: 1.33rem;
+  margin-bottom: 1.33rem;
+}
+#video-d p {
+  padding-bottom: 1.78rem;
+}
+.video-adjacent {
+  width: 23.5rem;
+  height: 9.33rem;
+}
+.video-adjacent img {
+  margin: .89rem;
+  height: 7.56rem;
+  width: 7.56rem;
+}
+.video-adjacent h5 {
+  margin-bottom: .44rem;
 }
 
 /* Footer */
 footer {
   background-color: lightblue;
+  justify-content: space-between;
+  height: 4rem;
+}
+footer p{
+  margin-left: 1.33rem;
+}
+footer a {
+  margin-right: 1.33rem;
+}
+footer nav,
+footer p {
+  padding-top: 1.33rem;
+  padding-bottom: 2.5rem;
 }
