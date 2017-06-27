@@ -10,15 +10,19 @@ body {
 }
 h1 {
   font-size: 3rem;
+  font-weight: bold;
 }
 h2 {
   font-size: 2rem;
+  font-weight: bold;
 }
 h3 {
   font-size: 1.75rem;
+  font-weight: bold;
 }
 h5 {
   font-size: 1.25rem;
+  font-weight: bold;
 }
 p {
   font-size: 1rem;
@@ -53,7 +57,7 @@ footer {
 
 /* Header */
 .desktop-header {
-  background-color: lightgray;
+  background-color: #d3d3d3;
   position: fixed;
   right: 0rem;
   left: 0rem;
@@ -65,6 +69,9 @@ footer {
 .desktop-header {
   justify-content: space-between;
   height: 3.56rem;
+}
+#aquamarine {
+  color: #4e78a0;
 }
 #logo-name {
   margin-left: 1.33rem;
@@ -78,6 +85,7 @@ footer {
 }
 #logo-name h5 {
   align-self: center;
+  font-weight: normal;
 }
 .margin {
   margin-left: 1rem;
@@ -85,7 +93,7 @@ footer {
 
 /* Banner */
 .banner {
-  background-color: lightblue;
+  background-color: #b2dfee;
 }
 .headline {
   flex-direction: column;
@@ -97,8 +105,11 @@ footer {
   margin-bottom: 2.22rem;
   font-family: "Asul", sans-serif;
 }
+h1 {
+  color: #4e78a0;
+}
 .headline p{
-  background-color: darkblue;
+  background-color: #4e78a0;
   color: white;
   justify-content: center;
   text-align: center;
@@ -119,7 +130,7 @@ footer {
 
 /* Information */
 .info {
-  background-color: lightgray;
+  background-color: #d3d3d3;
 }
 .information,
 .links-d,
@@ -165,10 +176,13 @@ footer {
   margin-left: .89rem;
   margin-top: 1.78rem;
 }
+#lecture {
+  background-color: #4e78a0;
+}
 
 /* Learning */
 #learning {
-  background-color: lightblue;
+  background-color: #b2dfee;
 }
 #learning,
 .courses,
@@ -176,8 +190,10 @@ footer {
   flex-direction: column;
 }
 .under-photo {
-  background-color: white;
+  background-color: #4e78a0;
+  color: white;
   padding-left: .89rem;
+  padding-bottom: .89rem;
   height: 7.8rem;
 }
 .under-photo h5 {
@@ -185,6 +201,7 @@ footer {
 }
 .under-photo p {
   margin-top: .89rem;
+  max-width: 90%;
 }
 .courses {
   max-width: 25%;
@@ -197,16 +214,16 @@ footer {
 #learning h2 {
   margin: 1.78rem auto;
   font-family: "Asul", sans-serif;
+  color: #4e78a0;
 }
 .middle {
   margin-left: 1.78rem;
   margin-right: 1.78rem;
 }
 
-
 /* Thesis */
 #thesis {
-  background-color: lightgray;
+  background-color: #d3d3d3;
 }
 #video-d,
 #stacked,
@@ -225,6 +242,7 @@ footer {
 #thesis h2 {
   margin: 1.78rem auto;
   font-family: "Asul", sans-serif;
+  color: #4e78a0;
 }
 #video-d h5 {
   margin-top: 1.33rem;
@@ -248,7 +266,7 @@ footer {
 
 /* Footer */
 footer {
-  background-color: lightblue;
+  background-color: #b2dfee;
   justify-content: space-between;
   height: 4rem;
 }
