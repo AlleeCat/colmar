@@ -5,6 +5,9 @@ html {
 a {
   text-decoration: none;
 }
+body {
+  font-family: "Open Sans", sans-serif;
+}
 h1 {
   font-size: 3rem;
 }
@@ -51,6 +54,9 @@ footer {
 /* Header */
 .desktop-header {
   background-color: lightgray;
+  position: fixed;
+  right: 0rem;
+  left: 0rem;
 }
 .desktop-header,
 #logo-name {
@@ -89,6 +95,7 @@ footer {
 .headline h1,
 .headline h5 {
   margin-bottom: 2.22rem;
+  font-family: "Asul", sans-serif;
 }
 .headline p{
   background-color: darkblue;
@@ -100,7 +107,7 @@ footer {
 }
 .banner img {
   max-width: 60%;
-  margin: 1.78rem 2.22rem 1.78rem 1.33rem;
+  margin: 5.78rem 2.22rem 1.78rem 1.33rem;
 }
 .links-d {
   width: 23.5rem;
@@ -141,6 +148,7 @@ footer {
 }
 .information h2 {
   margin-bottom: 1.33rem;
+  font-family: "Asul", sans-serif;
 }
 .information .small {
   margin-top: 2.22rem;
@@ -188,6 +196,7 @@ footer {
 }
 #learning h2 {
   margin: 1.78rem auto;
+  font-family: "Asul", sans-serif;
 }
 .middle {
   margin-left: 1.78rem;
@@ -215,6 +224,7 @@ footer {
 }
 #thesis h2 {
   margin: 1.78rem auto;
+  font-family: "Asul", sans-serif;
 }
 #video-d h5 {
   margin-top: 1.33rem;
