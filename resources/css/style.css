@@ -87,6 +87,7 @@ footer {
 #logo-name h5 {
   align-self: center;
   font-weight: normal;
+  text-shadow: .11rem .11rem #FFFFFF;
 }
 .margin {
   margin-left: 1rem;
@@ -108,6 +109,7 @@ footer {
 }
 h1 {
   color: #4e78a0;
+  text-shadow: .11rem .11rem #FFFFFF;
 }
 .headline p{
   background-color: #4e78a0;
@@ -166,7 +168,7 @@ h1 {
   margin-bottom: 2.22rem;
 }
 .photo-squares {
-  margin-bottom: 1.78rem
+  margin-bottom: 1.78rem;
 }
 .photo-squares h5,
 .photo-squares p {
@@ -185,12 +187,21 @@ h1 {
 }
 #lecture {
   background-color: #4e78a0;
-  padding-right: .5rem;
+  padding: .7rem;
   border: .2rem solid #ffffff;
   border-radius: .5rem;
 }
+#lecture h5 {
+  font-size: 1.5rem;
+}
+#lecture p,
+#lecture a {
+  font-size: 1.15rem;
+}
 #lecture img {
   border: none;
+  width: 40%;
+  height: 40%;
 }
 
 /* Learning */
@@ -217,10 +228,13 @@ h1 {
 }
 .under-photo h5 {
   margin-top: .89rem;
+  margin-bottom: .89rem;
 }
-.under-photo p {
-  margin-top: .89rem;
-  max-width: 90%;
+.under-photo li {
+  margin-bottom: .3rem;
+}
+.under-photo ul{
+  padding-left: 1.5rem;
 }
 .courses {
   max-width: 25%;
@@ -236,6 +250,7 @@ h1 {
   margin: 1.78rem auto;
   font-family: "Asul", sans-serif;
   color: #4e78a0;
+  text-shadow: .11rem .11rem #FFFFFF;
 }
 .middle {
   margin-left: 1.78rem;
@@ -251,6 +266,9 @@ h1 {
 #thesis {
   flex-direction: column;
 }
+#stacked {
+  align-items: center;
+}
 #thesis-content {
   flex-direction: row;
   align-items: flex-start;
@@ -264,6 +282,7 @@ h1 {
   margin: 1.78rem auto;
   font-family: "Asul", sans-serif;
   color: #4e78a0;
+  text-shadow: .11rem .11rem #FFFFFF;
 }
 #video-d h5 {
   margin-top: 1.33rem;
@@ -278,8 +297,8 @@ h1 {
 }
 .video-adjacent img {
   margin: .89rem;
-  height: 7.56rem;
-  width: 7.56rem;
+  height: 9rem;
+  width: 35%;
   border: .1rem solid #4e78a0;
   border-radius: .5rem;
 }
@@ -295,7 +314,7 @@ video {
 
 /* Footer */
 footer {
-  background-color: #b2dfee;
+  background-color: #d3d3d3;
   justify-content: space-between;
   height: 4rem;
   border-top: .1rem solid #4e78a0;
