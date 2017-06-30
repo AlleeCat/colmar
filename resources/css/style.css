@@ -4,6 +4,10 @@ html {
 }
 a {
   text-decoration: none;
+  color: #0000ee;
+}
+a:hover {
+  font-weight: bold;
 }
 body {
   font-family: "Open Sans", sans-serif;
@@ -24,7 +28,8 @@ h5 {
   font-size: 1.25rem;
   font-weight: bold;
 }
-p {
+p,
+a {
   font-size: 1rem;
 }
 .small {
@@ -329,4 +334,104 @@ footer nav,
 footer p {
   padding-top: 1.33rem;
   padding-bottom: 2.5rem;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 500px) {
+  /* Universal Styles */
+  .desktop,
+  .desktop-header,
+  #learning.desktop,
+  #thesis.desktop {
+    display: none;
+  }
+  .mobile,
+  .mobile-header,
+  .links-m,
+  #learn,
+  #video-m {
+    display: flex;
+  }
+  /* Mobile Header */
+  .mobile-header {
+    justify-content: space-around;
+    height: 3.56rem;
+  }
+  /* Mobile Banner */
+  .banner {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+  .banner img {
+    max-width: 100%;
+    height: 15rem;
+    margin: 0;
+    border-radius: 0rem;
+  }
+  .headline {
+    max-width: 95%;
+    margin: 1.78rem .89rem;
+  }
+  /* Mobile Info */
+  .links-m {
+    flex-direction: column;
+  }
+  .info-photos {
+    max-width: 100%;
+    margin: .89rem;
+  }
+  .info-photos img {
+    max-width: 100%;
+    border: .1rem solid #4e78a0;
+    border-radius: .5rem;
+  }
+  .info-photos h5,
+  .info-photos p,
+  .info-photos a {
+    padding: .89rem;
+  }
+  /* Mobile Learning */
+  #learn {
+    flex-direction: column;
+    padding-bottom: 1.78rem;
+  }
+  #learn h2 {
+    margin-top: 1.78rem;
+    margin-bottom: .89rem;
+    align-self: center;
+    color: #4e78a0;
+    text-shadow: .11rem .11rem #000000;
+  }
+  #learn a {
+    background-color: #b2dfee;
+    padding: .89rem;
+    margin-left: .89rem;
+    margin-right: .89rem;
+    margin-bottom: .44rem;
+    color: #4e78a0;
+    border: .1rem solid #4e78a0;
+    border-radius: .5rem;
+    font-size: 1.25rem;
+  }
+  /* Mobile Thesis */
+  #video-m {
+    flex-direction: column;
+    padding-bottom: 1.33rem;
+  }
+  video {
+    padding: 0rem;
+    width: 100%;
+  }
+  #video-m h2 {
+    padding-top: 1.78rem;
+    padding-bottom: .89rem;
+    align-self: center;
+    color: #4e78a0;
+    text-shadow: .11rem .11rem #000000;
+  }
+  /* Mobile Footer */
+  footer {
+    vertical-align: middle;
+  }
 }
